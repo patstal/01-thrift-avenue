@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        
+        <!-- The following two codes are inspired by this tutorial: https://multiwebpress.com/responsive-navigation-bar-header-in-html-css-javascript/ and W3 School. Ensure high compatibility with various browsers  -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="mystyle.css">
+        
+         <!-- This is an example page of how it will look like when you click an item in the section "Clothing" -->
+        
+        <title>Clothing</title>
+    </head>
+    <body>  
+        
+         <!-- Trying to use as divs instead of static HTML commands because it makes it easier to divide various elements, CSS is better at styling and structuring websites and more commonly used amongst developers anyway -->
+        <header>
+        <nav class="navbar navbar-default navbar-static-top">
+        <div class="logo">
+            <a href="index.html"><img decoding="async" src="images/01ALogo.png" alt="Logo Image"></a>
+        </div>
+            
+            <!-- Hamburger style menu, styled with CSS and JavaScript in order for the website to respond to smaller devices such as iPads and iPhones -->
+        <div class="hamburger">
+            <div class="bars1"></div>
+            <div class="bars2"></div>
+            <div class="bars3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="thriftshops.html">Thrift Shops</a></li>
+            <li><a href="clothing.html">Clothing</a></li>
+            <li><a href="postcontent.html">Post Content</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <div class="layoutthriftshops">
+        <h1 class="headingthriftshops">Boots, Ivory White</h1>
+        
+           
+             <div class="itemlayout">
+                        
+                
+            <img class="clothespics" src="images/Pictures/Items/boots%20.jpeg">
+                 
+                 <table class="itemdescription clothespics">
+                    <tr>
+                        <td class="itemdescription1"> Thrift Store</td>
+                        <td class="itemdescription2">Triad</td>
+                    </tr>
+                    <tr>
+                        <td class="itemdescription1"> Address</td>
+                        <td class="itemdescription2">2 Acre Ln, London SW2 5SG</td>
+                    </tr>
+                     <tr>
+                        <td class="itemdescription1"> Price</td>
+                        <td class="itemdescription2">15£</td>
+                    </tr>
+                     <tr>
+                        <td class="itemdescription1"> Brand</td>
+                        <td class="itemdescription2">Unknown</td>
+                    </tr>
+                     <tr>
+                        <td class="itemdescription1">Size</td>
+                        <td class="itemdescription2">L</td>
+                    </tr>
+                     <tr>
+                        <td class="itemdescription1"> Color</td>
+                        <td class="itemdescription2">Ivory White</td>
+                    </tr>
+                     <tr>
+                        <td class="itemdescription1"> Condition</td>
+                        <td class="itemdescription2">Okay - Used</td>
+                    </tr>
+                    <tr>
+                        <td class="itemdescription1"> Item Added</td>
+                        <td class="itemdescription2">30/12/2022</td>
+                    </tr>
+                 </table>  
+                  
+            
+                </div>
+                
+            
+            
+          
+            
+        
+    
+</div>
+
+
+        
+    <script src="javascript/script.js"></script>
+    </body>
+    
+</html>
